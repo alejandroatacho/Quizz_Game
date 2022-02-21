@@ -6,7 +6,6 @@ from tkinter.messagebox import YES
 print("Welcome to this Quizz Game!")
 right_answer = 0
 wrong_answer = 0
-answer = YES
 question = ""
 
 # Start
