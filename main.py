@@ -6,7 +6,7 @@ from tkinter.messagebox import YES
 print("Welcome to this Quizz Game!")
 right_answer = 0
 wrong_answer = 0
-question = ""
+
 
 # Start
 playing = input("Are you ready to start!!: ")
@@ -25,7 +25,7 @@ else:
     else:
         wrong_answer += 1
     question = (input("Is the earth flat?: "))
-    if question == "no":
+    if question == "No":
         right_answer += 1
     else:
         wrong_answer += 1
