@@ -35,8 +35,10 @@ else:
         right_answer += 1
     else:
         wrong_answer += 1
+#calculator & formulas
 percent = right_answer/(right_answer + wrong_answer) * 100
 percent_false = wrong_answer/(right_answer+wrong_answer)*100
+# output
 print("You have "+str(right_answer)+" answers " +
       "and " + str(wrong_answer) + " wrong answers")
 print("Out of all the questions you had this much percentage right " +
